@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: cyan;
+  color:cyan;
+  transition:  transform 1s;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+  text-align:center;
+  color:maroon;
+  font-size: 40px;
+  padding-top:100px;
+  background: pink;
+  transform: rotate(180deg);
+ 
+}
+
+ @media screen and (max-width: 600px) {
+  div, div:hover {   
+    font-size:20px;
+    height: 150px;
+ 
+  }
+
+
+</style>
+</head>
+<body>
+
+<h1>Transition + Transform</h1>
+
+<p>click down</p>
+<div>
+<div>YOU ARE THE BEST</div>
+<img src"like.gif">
+</div>
+
+</body>
+</html>
+
